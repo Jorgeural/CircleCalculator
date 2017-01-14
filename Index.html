@@ -1,0 +1,69 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Circle Calculator</title>    
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css"/>
+    <script src="https://use.fontawesome.com/36ee2f9934.js"></script>
+    <script src="script.js"></script>
+
+</head>
+    
+    <!-- TODO!
+   style main text/ improve whole style
+  make it responsive
+-->
+<body>
+    <div class="main">
+      <div>
+        <h1 class="tittle-text">Circle calculator</h1>
+      </div>
+      <div>
+
+        <form action="" id="Circle calculator" onsubmit="return false">
+
+        Radius: <input id="radius" type="text" name="radius" required >
+        Decimals: <input id="decimals" type="number" name="decimals" required >
+        Units: <select id="units" required>
+      <option value="m">m</option>
+      <option value="cm">cm</option>
+      <option value="mm">mm</option>
+      <option value="yd">yd</option>
+      <option value="ft">ft</option>
+      <option value="in">in</option>
+    </select> 
+
+      </form>
+
+    <button form="Circle calculator" onclick="circleArea()" class="button">Calculate</button>
+
+      </div>
+      <div>
+        <p> Area = <span id="area"> π * r * r</span></p>
+        <p> Circumference = <span id="Circumference">2 * π * r</span></p>
+        <p> Diameter = <span id="diameter">2 * r</span></p>
+      </div>
+    </div>
+
+</body>
+
+<footer>
+      <div class="footer-text">
+        <p>Made by Jorge Urosa.</p>
+      </div>
+
+      <div class="footer-icons">
+        <a href="https://es.linkedin.com/in/jorgeurosa" target="_blank"><i class="fa fa-linkedin"></i></a>
+
+        <a href="https://www.freecodecamp.com/jorgeural" target="_blank"><i class="fa fa-free-code-camp"></i></a>
+
+        <a href="https://github.com/Jorgeural" target="_blank"><i class="fa fa-github"></i></a>
+
+        <a href="http://codepen.io/Jorgeural/" target="_blank"><i class="fa fa-codepen"></i></a>
+
+
+      </div>
+
+</footer>
